@@ -1,0 +1,14 @@
+<Trackpoint>
+  <Time>${timestamp}</Time>
+  <DistanceMeters>${distance}</DistanceMeters>
+  <HeartRateBpm xsi:type="HeartRateInBeatsPerMinute_t">
+    <Value>${heartRate}</Value>
+  </HeartRateBpm>
+  <Cadence>${cadence}</Cadence>
+  <Extensions>
+    <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+      <Speed>${speed}</Speed>
+      <Watts>${realPower}</Watts>
+    </TPX>
+  </Extensions>
+</Trackpoint>
